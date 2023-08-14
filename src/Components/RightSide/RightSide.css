@@ -1,0 +1,230 @@
+.rightSide{
+    width: 75%;
+    /* padding: 40px; */
+    background-color: rgb(187, 229, 233);
+    border-radius: 30px;
+}
+.rightTop{
+    display: flex;
+    padding:  40px 40px 20px 40px;
+    justify-content: space-between;
+}
+
+.name p{
+    /* padding: 5px 0px; */
+    font-size: 14px;
+}
+.profilemore{
+    display: flex;
+    align-items: center;
+}
+
+.drawar{
+    padding-right: 10px;
+    align-items: center;
+    display: flex;
+    cursor: pointer;
+}
+
+.profile{
+    display: flex;
+    height: 40px;
+    width: 40px;
+    border-radius: 15px;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.hoursHead{
+    display: flex;
+    justify-content: space-between;
+}
+
+.UpcomingHours{
+    margin: 10px 40px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 25px;
+}
+
+.hoursTitles p{
+    font-weight: 500;
+    font-size: 14px;
+}
+.ppDrawer{
+    display: flex;
+}
+
+.ppDrawer p{
+    font-size: 11px;
+}
+
+.hours-precipitaion{
+    display: flex;
+    color: rgb(88, 87, 87);
+    background-color: rgb(210, 207, 207);
+    border-radius: 10px;
+    padding: 5px 10px;
+    margin: 0px 10px;
+}
+.nextDay{
+    display: flex;
+    font-weight: 500;
+    background-color: rgb(210, 207, 207);
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+
+.moreDetail-card h5{
+    font-size: 15px;
+    padding: 20px 40px 0px 40px;
+}
+
+.moreDetails{
+    display: grid;
+    margin: 0px 20px 40px 20px;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-between;
+}
+
+.moreDetails .detail-card{
+    margin: 15px 20px;
+    padding: 15px 20px;
+    background-color: white;
+    border-radius: 25px;
+}
+
+.detail-card p{
+    font-size: 14px;
+
+}
+
+.card-title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card-title span{
+    font-size: 14px;
+    color: white;
+    border-radius: 5px;
+    padding: 2px;
+    background-color:  rgb(23, 167, 172);
+}
+
+/* example */
+
+.progress{
+    margin-top: 10px;
+    height: 10px;
+    color: rgb(23, 167, 172);
+    transition: all 0.3s ease 1s;
+}
+
+.progress-bar{
+    background: rgb(23, 167, 172);
+    transition: all 0.3s ease 1s;
+}
+
+.container{
+    position: relative;
+    max-width: 500px;
+    width: 100%;
+    background: #fff;
+    margin: 0 15px;
+    padding: 10px 20px;
+    border-radius: 7px;
+}
+
+.title-text {
+    text-align: center;
+    background-color: rgb(23, 167, 172);
+    color: #fff;
+    font-weight: 400;
+    border-radius: 50px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.container .skill-box {
+    width: 100%;
+    margin: 25px 0;
+}
+
+.skill-box .title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: 600;
+    color: #333;
+}
+
+/* circle progressbbar */
+
+.RCP{
+    width: 100% !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    bottom: -15px;
+}
+
+
+
+.indicator {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    font-size: 2.2em;
+    font-weight: 100;
+    color: #555;
+    user-select: none;
+}
+
+.indicator-volume {
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    font-size: 1.3em;
+
+    .inner {
+        margin-bottom: 5px;
+    }
+
+    .percentage {
+        font-size: 15px;
+        color: #040404;
+        font-weight: 500;
+    }
+
+    .icon {
+        font-size: 3em;
+        color: #5d9cec;
+        margin-bottom: 15px;
+    }
+
+}
+
+/* graph */
+
+/* .recharts-wrapper{
+    height: 200px !important;
+    width: 100%;
+} */
+

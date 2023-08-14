@@ -1,0 +1,128 @@
+.leftSide {
+    padding: 30px 20px;
+    width: 25%;
+    /* background-color: rgb(59, 127, 151); */
+    color: white;
+    /* border: 1px solid black; */
+    border-radius: 30px;
+
+}
+
+p {
+    margin-bottom: 0;
+}
+
+.carousel-caption {
+    position: initial;
+    margin-bottom: 25px;
+}
+
+.add span {
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.leftSide img {
+    z-index: 0;
+    height: 100vh;
+    border-radius: 30px;
+}
+
+.top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.tcChange form {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.tcChange form .form-switch {
+    padding-left: 35px;
+}
+
+.form-check-input:checked {
+    background-color: rgb(23, 167, 172);
+    border-color: rgb(23, 167, 172);
+}
+
+.modal.show .modal-dialog {
+    justify-content: center;
+}
+
+.modal-content {
+    width: 50%;
+}
+
+.modal-footer button{
+    background-color: rgb(40, 83, 99);
+}
+.modal-footer button:hover{
+    background-color: rgb(23, 167, 172);
+}
+
+.location {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.locationD p {
+    font-size: 15px;
+    margin-bottom: 0;
+}
+
+.locationD span {
+    font-size: 15px;
+}
+
+.locationDate p {
+    color: rgb(176, 174, 174);
+    font-size: 12px;
+}
+
+.locationD {
+    display: flex;
+}
+
+.date {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
+
+.locationTime p {
+    font-size: 15px;
+}
+
+.temp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.temp h1 {
+    font-weight: 500;
+    font-size: 70px;
+}
+
+.weathers {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.weathers span {
+    font-size: 20px;
+}
+
+.weathers h2 {
+    padding-left: 10px;
+    font-weight: 300;
+}
